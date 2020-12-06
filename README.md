@@ -1,6 +1,10 @@
 # bookpalaceback
 
-How to run this project
+## Requirements
+
+- Docker
+
+## How to run this project
 
 1. Build docker image:
 
