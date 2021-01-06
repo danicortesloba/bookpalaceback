@@ -1,5 +1,5 @@
 export const makeHelloWorldService = () => {
-  return () => ({
+  return {
     getHelloWorld: () => "hello!!!",
-  });
+  };
 };
