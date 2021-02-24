@@ -9,4 +9,4 @@ COPY . .
 EXPOSE 8000
 
 ENTRYPOINT ["deno"]
-CMD ["run", "--allow-net", "index.ts"]
+CMD ["run", "--allow-net", "--allow-read", "src/index.ts"]
